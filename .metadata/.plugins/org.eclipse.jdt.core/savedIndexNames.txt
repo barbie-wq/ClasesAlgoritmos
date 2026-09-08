@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Users\Milen\OneDrive\Documentos\UNIV.2do\2-Cuatrimestre\Algoritmos y Estructura de datos\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index
+4033921876.index
+348111208.index

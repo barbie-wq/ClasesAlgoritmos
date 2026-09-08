@@ -1,0 +1,25 @@
+package semana2;
+
+import java.util.Scanner;
+
+public class Ejercicio9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Cuantos numeros vas a ingresar");
+		int n = 0;
+		double suma = 0;
+
+		for (int i = 1; i <= n; i++) {
+		    System.out.print("Ingrese el número " + i + ": ");
+		    double numero = sc.nextDouble();
+		    suma = suma + numero;
+		}
+
+		double promedio = suma / n;
+		System.out.println("El promedio es: " + promedio);
+		
+	}
+
+}
