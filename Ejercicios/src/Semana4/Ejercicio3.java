@@ -41,10 +41,11 @@ public class Ejercicio3 {
 				break;
 			default: // Si ninguna de las opciones anteriores coincide.
 				System.out.println("Opción inválida");
+				sc.close();
 				return;
 		}
         System.out.println("Resultado" + resultado);
-        
+        sc.close();
 	}
 
 	public static double calcularSuma(double a, double b) {
